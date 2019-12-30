@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:background="#fff"
+              android:layout_marginTop="30dp"
+              android:layout_height="match_parent">
+
+    <Button
+            android:id="@+id/btn_click"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Coroutine asycn"
+            android:background="#fff"
+            android:textColor="@color/colorAccent"/>
+
+
+    <Button
+            android:id="@+id/btn_click4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Coroutine ..."
+            android:background="#fff"
+            android:textColor="@color/colorAccent"/>
+
+
+    <Button
+            android:id="@+id/btn_click2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thread"
+            android:background="#fff"
+            android:textColor="@color/colorAccent"/>
+
+    <Button
+            android:id="@+id/btn_click3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Squential"
+            android:background="#fff"
+            android:textColor="@color/colorAccent"/>
+
+    <TextView
+            android:id="@+id/tv_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Result"
+            android:textSize="20sp"
+            android:background="#fff"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:textColor="@color/colorAccent"/>
+</LinearLayout>

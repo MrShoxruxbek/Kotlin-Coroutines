@@ -1,3 +1,4 @@
+![](https://travis-ci.org/mr-shoxruxbek/Kotlin-Coroutines.svg?branch=master)
 # Kotlin-Coroutines
 Create 1000 threads and classic thread. Adam's law.
 
